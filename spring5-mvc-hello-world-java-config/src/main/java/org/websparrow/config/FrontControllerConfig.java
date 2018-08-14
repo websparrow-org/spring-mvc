@@ -1,0 +1,30 @@
+package org.websparrow.config;
+
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+/*
+ 
+  This class is responsible to tell the Spring framework
+this is a java based configuration
+
+*/
+public class FrontControllerConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+	@Override
+	protected Class<?>[] getRootConfigClasses() {
+
+		return new Class[] { WebMvcConfig.class };
+	}
+
+	@Override
+	protected Class<?>[] getServletConfigClasses() {
+
+		return null;
+	}
+
+	@Override
+	protected String[] getServletMappings() {
+		return new String[] { "/" };
+	}
+
+}
