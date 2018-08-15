@@ -3,7 +3,7 @@
 
 <body>
 
-	<h2>Spring 5 MVC Hello World using Java based configuration</h2>
+	<h2>Spring 5 MVC Java Based Configuration Example</h2>
 	
 	<form action="hello" method="post">
 

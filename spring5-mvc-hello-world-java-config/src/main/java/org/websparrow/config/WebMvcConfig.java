@@ -15,10 +15,12 @@ public class WebMvcConfig {
 	public InternalResourceViewResolver viewResolver() {
 		InternalResourceViewResolver vr = new InternalResourceViewResolver();
 
+		// set location of views.
 		vr.setPrefix("/");
+
+		// set the extension of views.
 		vr.setSuffix(".jsp");
-		
+
 		return vr;
 	}
-
 }
