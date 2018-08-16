@@ -20,5 +20,4 @@ public class FrontControllerConfig extends AbstractAnnotationConfigDispatcherSer
 	protected String[] getServletMappings() {
 		return new String[] { "/" };
 	}
-
 }
