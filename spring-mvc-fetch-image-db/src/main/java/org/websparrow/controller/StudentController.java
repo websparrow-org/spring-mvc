@@ -35,7 +35,7 @@ public class StudentController {
 	}
 
 	@RequestMapping(value = "/getStudentPhoto/{id}")
-	public void getUserImage(HttpServletResponse response, @PathVariable("id") int id) throws Exception {
+	public void getStudentPhoto(HttpServletResponse response, @PathVariable("id") int id) throws Exception {
 		response.setContentType("image/jpeg");
 
 		Blob ph = stuDao.getPhotoById(id);

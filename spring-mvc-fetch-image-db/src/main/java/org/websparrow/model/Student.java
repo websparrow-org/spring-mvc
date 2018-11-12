@@ -1,7 +1,5 @@
 package org.websparrow.model;
 
-import java.sql.Blob;
-
 public class Student {
 
 	// Getters and Setters...
